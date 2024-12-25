@@ -1,0 +1,10 @@
+{
+  "name": "readifyai-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/readifyai-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["readifyai"],
+  "// targets": "to see all targets run: nx show project readifyai-e2e --web",
+  "targets": {}
+}

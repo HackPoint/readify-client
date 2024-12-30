@@ -2,7 +2,7 @@
   "name": "readifyai",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "projectType": "application",
-  "prefix": "app",
+  "prefix": "readifyai",
   "sourceRoot": "apps/readifyai/src",
   "tags": [],
   "targets": {
@@ -23,7 +23,9 @@
           }
         ],
         "styles": ["apps/readifyai/src/styles.scss"],
-        "scripts": []
+        "scripts": [
+          "node_modules/flyonui/flyonui.js"
+        ]
       },
       "configurations": {
         "production": {

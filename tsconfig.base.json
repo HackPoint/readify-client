@@ -14,7 +14,12 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@readifyai/core/interfaces": ["libs/core/interfaces/src/index.ts"],
+      "@readifyai/core/models": ["libs/core/models/src/index.ts"],
+      "@readifyai/core/services": ["libs/core/services/src/index.ts"],
+      "@readifyai/features/dashboard": ["libs/features/dashboard/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }
